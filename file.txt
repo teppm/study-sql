@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     mysql> source test.sql
 +----------+
 | count(*) |
@@ -273,6 +274,14 @@ Empty set (0.00 sec)
 mysql> Select * Name from Artist;
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Name from Artist' at line 1
 mysql> Select Name from Artist;
+=======
+mysql> select * Name from Customer;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Name from Customer' at line 1
+mysql> select *  from Customer;
+Empty set (0.00 sec)
+
+mysql> select Name from Artist;
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 +---------------------------------------------------------------------------------------+
 | Name                                                                                  |
 +---------------------------------------------------------------------------------------+
@@ -281,7 +290,11 @@ mysql> Select Name from Artist;
 | Aerosmith                                                                             |
 | Alanis Morissette                                                                     |
 | Alice In Chains                                                                       |
+<<<<<<< HEAD
 | Antï¿½nio Carlos Jobim                                                                  |
+=======
+| Ant“nio Carlos Jobim                                                                  |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Apocalyptica                                                                          |
 | Audioslave                                                                            |
 | BackBeat                                                                              |
@@ -293,9 +306,15 @@ mysql> Select Name from Artist;
 | Buddy Guy                                                                             |
 | Caetano Veloso                                                                        |
 | Chico Buarque                                                                         |
+<<<<<<< HEAD
 | Chico Science & Naï¿½ï¿½o Zumbi                                                           |
 | Cidade Negra                                                                          |
 | Clï¿½udio Zoli                                                                          |
+=======
+| Chico Science & Na‡Æo Zumbi                                                           |
+| Cidade Negra                                                                          |
+| Cl udio Zoli                                                                          |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Various Artists                                                                       |
 | Led Zeppelin                                                                          |
 | Frank Zappa & Captain Beefheart                                                       |
@@ -303,14 +322,22 @@ mysql> Select Name from Artist;
 | Milton Nascimento & Bebeto                                                            |
 | Azymuth                                                                               |
 | Gilberto Gil                                                                          |
+<<<<<<< HEAD
 | Joï¿½o Gilberto                                                                         |
+=======
+| JoÆo Gilberto                                                                         |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Bebel Gilberto                                                                        |
 | Jorge Vercilo                                                                         |
 | Baby Consuelo                                                                         |
 | Ney Matogrosso                                                                        |
 | Luiz Melodia                                                                          |
 | Nando Reis                                                                            |
+<<<<<<< HEAD
 | Pedro Luï¿½s & A Parede                                                                 |
+=======
+| Pedro Lu¡s & A Parede                                                                 |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | O Rappa                                                                               |
 | Ed Motta                                                                              |
 | Banda Black Rio                                                                       |
@@ -320,10 +347,17 @@ mysql> Select Name from Artist;
 | Milton Nascimento                                                                     |
 | A Cor Do Som                                                                          |
 | Kid Abelha                                                                            |
+<<<<<<< HEAD
 | Sandra De Sï¿½                                                                          |
 | Jorge Ben                                                                             |
 | Hermeto Pascoal                                                                       |
 | Barï¿½o Vermelho                                                                        |
+=======
+| Sandra De S                                                                           |
+| Jorge Ben                                                                             |
+| Hermeto Pascoal                                                                       |
+| BarÆo Vermelho                                                                        |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Edson, DJ Marky & DJ Patife Featuring Fernanda Porto                                  |
 | Metallica                                                                             |
 | Queen                                                                                 |
@@ -340,11 +374,16 @@ mysql> Select Name from Artist;
 | Santana Feat. Rob Thomas                                                              |
 | Santana Feat. Lauryn Hill & Cee-Lo                                                    |
 | Santana Feat. The Project G&B                                                         |
+<<<<<<< HEAD
 | Santana Feat. Manï¿½                                                                    |
+=======
+| Santana Feat. Man                                                                     |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Santana Feat. Eagle-Eye Cherry                                                        |
 | Santana Feat. Eric Clapton                                                            |
 | Miles Davis                                                                           |
 | Gene Krupa                                                                            |
+<<<<<<< HEAD
 | Toquinho & Vinï¿½cius                                                                   |
 | Vinï¿½cius De Moraes & Baden Powell                                                     |
 | Vinï¿½cius De Moraes                                                                    |
@@ -353,6 +392,16 @@ mysql> Select Name from Artist;
 | Vinicius, Toquinho & Quarteto Em Cy                                                   |
 | Creedence Clearwater Revival                                                          |
 | Cï¿½ssia Eller                                                                          |
+=======
+| Toquinho & Vin¡cius                                                                   |
+| Vin¡cius De Moraes & Baden Powell                                                     |
+| Vin¡cius De Moraes                                                                    |
+| Vin¡cius E Qurteto Em Cy                                                              |
+| Vin¡cius E Odette Lara                                                                |
+| Vinicius, Toquinho & Quarteto Em Cy                                                   |
+| Creedence Clearwater Revival                                                          |
+| C ssia Eller                                                                          |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Def Leppard                                                                           |
 | Dennis Chambers                                                                       |
 | Djavan                                                                                |
@@ -372,21 +421,36 @@ mysql> Select Name from Artist;
 | Jimi Hendrix                                                                          |
 | Joe Satriani                                                                          |
 | Jota Quest                                                                            |
+<<<<<<< HEAD
 | Joï¿½o Suplicy                                                                          |
 | Judas Priest                                                                          |
 | Legiï¿½o Urbana                                                                         |
+=======
+| JoÆo Suplicy                                                                          |
+| Judas Priest                                                                          |
+| LegiÆo Urbana                                                                         |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Lenny Kravitz                                                                         |
 | Lulu Santos                                                                           |
 | Marillion                                                                             |
 | Marisa Monte                                                                          |
 | Marvin Gaye                                                                           |
 | Men At Work                                                                           |
+<<<<<<< HEAD
 | Motï¿½rhead                                                                             |
 | Motï¿½rhead & Girlschool                                                                |
 | Mï¿½nica Marianno                                                                       |
 | Mï¿½tley Crï¿½e                                                                           |
 | Nirvana                                                                               |
 | O Terï¿½o                                                                               |
+=======
+| Mot”rhead                                                                             |
+| Mot”rhead & Girlschool                                                                |
+| M“nica Marianno                                                                       |
+| M”tley Cre                                                                           |
+| Nirvana                                                                               |
+| O Ter‡o                                                                               |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Olodum                                                                                |
 | Os Paralamas Do Sucesso                                                               |
 | Ozzy Osbourne                                                                         |
@@ -421,7 +485,11 @@ mysql> Select Name from Artist;
 | The Tea Party                                                                         |
 | The Who                                                                               |
 | Tim Maia                                                                              |
+<<<<<<< HEAD
 | Titï¿½s                                                                                 |
+=======
+| TitÆs                                                                                 |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Battlestar Galactica                                                                  |
 | Heroes                                                                                |
 | Lost                                                                                  |
@@ -461,19 +529,31 @@ mysql> Select Name from Artist;
 | Gustavo & Andres Veiga & Salazar                                                      |
 | Rodox                                                                                 |
 | Charlie Brown Jr.                                                                     |
+<<<<<<< HEAD
 | Pedro Luï¿½s E A Parede                                                                 |
+=======
+| Pedro Lu¡s E A Parede                                                                 |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Los Hermanos                                                                          |
 | Mundo Livre S/A                                                                       |
 | Otto                                                                                  |
 | Instituto                                                                             |
+<<<<<<< HEAD
 | Naï¿½ï¿½o Zumbi                                                                           |
+=======
+| Na‡Æo Zumbi                                                                           |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | DJ Dolores & Orchestra Santa Massa                                                    |
 | Seu Jorge                                                                             |
 | Sabotage E Instituto                                                                  |
 | Stereo Maracana                                                                       |
 | Cake                                                                                  |
 | Aisha Duo                                                                             |
+<<<<<<< HEAD
 | Habib Koitï¿½ and Bamada                                                                |
+=======
+| Habib Koit‚ and Bamada                                                                |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Karsh Kale                                                                            |
 | The Posies                                                                            |
 | Luciana Souza/Romero Lubambo                                                          |
@@ -493,7 +573,11 @@ mysql> Select Name from Artist;
 | Academy of St. Martin in the Fields Chamber Ensemble & Sir Neville Marriner           |
 | Berliner Philharmoniker, Claudio Abbado & Sabine Meyer                                |
 | Royal Philharmonic Orchestra & Sir Thomas Beecham                                     |
+<<<<<<< HEAD
 | Orchestre Rï¿½volutionnaire et Romantique & John Eliot Gardiner                         |
+=======
+| Orchestre R‚volutionnaire et Romantique & John Eliot Gardiner                         |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Britten Sinfonia, Ivor Bolton & Lesley Garrett                                        |
 | Chicago Symphony Chorus, Chicago Symphony Orchestra & Sir Georg Solti                 |
 | Sir Georg Solti & Wiener Philharmoniker                                               |
@@ -516,9 +600,15 @@ mysql> Select Name from Artist;
 | Maurizio Pollini                                                                      |
 | Academy of St. Martin in the Fields, Sir Neville Marriner & William Bennett           |
 | Gustav Mahler                                                                         |
+<<<<<<< HEAD
 | Felix Schmidt, London Symphony Orchestra & Rafael Frï¿½hbeck de Burgos                  |
 | Edo de Waart & San Francisco Symphony                                                 |
 | Antal Dorï¿½ti & London Symphony Orchestra                                              |
+=======
+| Felix Schmidt, London Symphony Orchestra & Rafael Frhbeck de Burgos                  |
+| Edo de Waart & San Francisco Symphony                                                 |
+| Antal Dor ti & London Symphony Orchestra                                              |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Choir Of Westminster Abbey & Simon Preston                                            |
 | Michael Tilson Thomas & San Francisco Symphony                                        |
 | Chor der Wiener Staatsoper, Herbert Von Karajan & Wiener Philharmoniker               |
@@ -537,12 +627,21 @@ mysql> Select Name from Artist;
 | The 12 Cellists of The Berlin Philharmonic                                            |
 | Adrian Leaper & Doreen de Feis                                                        |
 | Roger Norrington, London Classical Players                                            |
+<<<<<<< HEAD
 | Charles Dutoit & L'Orchestre Symphonique de Montrï¿½al                                  |
 | Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir    |
 | Kent Nagano and Orchestre de l'Opï¿½ra de Lyon                                          |
 | Julian Bream                                                                          |
 | Martin Roscoe                                                                         |
 | Gï¿½teborgs Symfoniker & Neeme Jï¿½rvi                                                    |
+=======
+| Charles Dutoit & L'Orchestre Symphonique de Montr‚al                                  |
+| Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir    |
+| Kent Nagano and Orchestre de l'Op‚ra de Lyon                                          |
+| Julian Bream                                                                          |
+| Martin Roscoe                                                                         |
+| G”teborgs Symfoniker & Neeme J„rvi                                                    |
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
 | Itzhak Perlman                                                                        |
 | Michele Campanella                                                                    |
 | Gerald Moore                                                                          |
@@ -554,6 +653,7 @@ mysql> Select Name from Artist;
 +---------------------------------------------------------------------------------------+
 275 rows in set (0.00 sec)
 
+<<<<<<< HEAD
 mysql> selest FirstName, LastName from Customer; 
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selest FirstName, LastName from Customer' at line 1
 mysql> select FirstName, LastName from Customer; 
@@ -1605,3 +1705,5 @@ Empty set (0.00 sec)
 mysql> select * from Employee;
 Empty set (0.00 sec)
 
+=======
+>>>>>>> c2bfb408099b83d36794d9a802b4315b6144f710
